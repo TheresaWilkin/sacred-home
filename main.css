@@ -39,7 +39,8 @@ nav {
   width: 100%;
   display: flex;
 }
-a {
+
+nav a {
   color: white;
   text-decoration: none;
   background-color: rgb(4,14,19);
@@ -48,8 +49,8 @@ a {
   padding: 10px
 }
 
-a:hover {
-
+nav a:hover {
+ color: rgb(70,70,70);
 }
 
 main {
@@ -59,6 +60,27 @@ main {
   min-height: 500px;
 }
 
-h1, h2, h3, a {
+h1, h2, h3, h4, h5, a {
     font-family: 'Playfair Display', serif;
+}
+
+i {
+  color: rgb(70,70,70);
+  margin-left: 10px
+}
+
+.event {
+  border-left: 2px solid rgb(70,70,70);
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+a {
+ color: rgb(70,70,70);
+ font-weight: bold;
+ font-size: 18px;
+}
+
+a:hover {
+  color: black;
 }
